@@ -1,0 +1,1 @@
+document.querySelector("#listSong").addEventListener("click", handlePlayMusic)

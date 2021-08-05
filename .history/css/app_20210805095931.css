@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#app {
+  position: relative;
+  z-index: 1;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #343a40;
+}
+.app-top {
+  background-color: #343a40;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  max-width: 480px;
+  width: 100%;
+  color: white;
+}
+.plate img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  animation: animationPlate 12s linear infinite;
+}
+
+@keyframes animationPlate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.app-body {
+  margin-top: 360px;
+}
+.music-item {
+  background-color: rgba(0, 0, 0, 0.555);
+  border-radius: 12px;
+}
+.app-body a {
+  color: white;
+}
+.app-body a:hover {
+  text-decoration: none !important;
+  color: blue;
+}

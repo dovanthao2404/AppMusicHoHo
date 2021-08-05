@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-top {
+  /* position: fixed;
+  top: 0;
+  z-index: 1000; */
+}
+.plate img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  animation: animationPlate 5s linear infinite;
+}
+
+@keyframes animationPlate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.music-item {
+  background-color: black;
+}
