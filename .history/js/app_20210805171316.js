@@ -67,7 +67,6 @@ function handlePlayMusic(e) {
 
           function loadCD(song) {
             var cd = document.querySelector(".plate img");
-            cd.src = song.img;
           }
 
         })
